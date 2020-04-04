@@ -1,0 +1,50 @@
+.banner{
+width: 100%;
+background: #21282E;
+}
+
+.banner img{
+ width: 40%;
+ margin-left: 30%;
+}
+
+.card{
+    height: 300px;
+}
+.img-container{
+    height: 300px;
+}
+.cursos-top{
+    margin-top: 2%;
+}
+
+.main-header{
+    background: #161b21;
+    border-bottom: none;
+    box-shadow: 0px 0px 16px 6px rgba(0, 0, 0, 0.55);
+-moz-box-shadow: 0px 0px 16px 6px rgba(0, 0, 0, 0.55);
+-webkit-box-shadow: 0px 0px 16px 6px rgba(0, 0, 0, 0.55);
+}
+.main-header li{
+   color: azure;
+   border: none;
+   box-shadow: beige 20px;
+}
+
+@media screen and (max-width: 700px) {
+   .card{
+       width: 80%;
+       margin-left: 10%;
+       margin-top: 5%;
+   }
+   .banner{
+    width: 100%;
+    background: #21282E;
+    }
+    
+    .banner img{
+     width: 70%;
+     margin-left: 15%;
+    }
+    
+  }

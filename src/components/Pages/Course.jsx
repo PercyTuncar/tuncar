@@ -1,3 +1,4 @@
+  
 import React, { useState, useEffect } from "react"
 import axios from "axios";
 import useCourse from "../CustomHooks/useCourse";
@@ -16,7 +17,7 @@ const Course = ({ match }) => {
         {
             course ? (
                 <div className="ed-grid">
-                    <div className="ed-grid l-block">
+                    <div className="ed-grid l-block">aqui la imagen
                       <h1 className="m-cols-3"> { course.titulo } </h1>
                       <img className="m-cols-1" src={ course.image } alt={course.titulo}/>
                       <p className="m-cols-2">Profesor: {course.profesor} </p>

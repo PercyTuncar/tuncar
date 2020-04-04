@@ -5,7 +5,7 @@ import { Link } from "react-router-dom"
 const CourseCard = ({id, title, image, price, professor}) => (
     <article className="card">
         <div className="img-container s-ratio-16-9 s-radius-tr s-radius-tl">
-            <Link to={`/cursos/${id}`}>
+            <Link to={`/peliculas/${id}`}>
                 <img src={image} alt={title} />
             </Link>
         </div>
@@ -15,7 +15,7 @@ const CourseCard = ({id, title, image, price, professor}) => (
                 { professor }
             </div>
             <div className="s-main-center">
-                <a className="button--ghost-alert button--tiny" href="https://ed.team">{ `$ ${price} USD`} </a>
+                <a className="button--ghost-alert button--tiny" href="https://ed.team">{ `${price}`} </a>
             </div>
         </div>
     </article>

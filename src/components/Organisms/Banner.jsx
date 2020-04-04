@@ -1,18 +1,11 @@
 import React from "react"
 
 const Banner = () => (
-  <div className="main-banner img-container l-section" id="main-banner">
-    <div className="ed-grid lg-grid-6">
-      <div className="lg-cols-4 lg-x-2">
-        <img className="main-banner__img" alt="banner" src="https://images.pexels.com/photos/597909/pexels-photo-597909.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500" />
-        <div className="main-banner__data s-center">
-          <p className="t2 s-mb-0">Cursos de EDteam</p>
-          <p> Tu futuro te está esperando</p>
-          <a href="https://ed.team" className="button">Suscribirse</a>
-        </div>
-      </div>
-    </div>
-  </div>
+ 
+   <div className="banner">
+     <img className="img-banner" alt="banner" src="https://scontent.flim18-2.fna.fbcdn.net/v/t1.0-9/s960x960/90168085_1282198135308591_1620911723978424320_o.jpg?_nc_cat=100&_nc_sid=ca434c&_nc_oc=AQnkwDZVi-QFKJ2w5P7qLKK8S5cjnses5H2uEzahAozEatkz7EUwVcwXC13IKDI23Bo&_nc_ht=scontent.flim18-2.fna&_nc_tp=7&oh=1b3ce5538ceec4f29cf3f5733070185c&oe=5EA6E5EC" />
+   </div>
+
 )
 
 export default Banner

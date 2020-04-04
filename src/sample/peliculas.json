@@ -1,0 +1,30 @@
+[
+    {
+      "id": 1,
+      "titulo": "Adrift",
+      "image": "https://image.tmdb.org/t/p/w600_and_h900_bestv2/qD5htgIVr66Rgtdm8ovLFR4Z8Zq.jpg",
+      "price": 234,
+      "profesor": "Percy Tuncar"
+    },
+    {
+      "id": 2,
+      "titulo": "Drupal desde cero",
+      "image": "https://drupal.ed.team/sites/default/files/styles/medium/public/courses/images/drupal-poster-720_3.jpg?itok=e93ErhMN",
+      "price": 30,
+      "profesor": "Beto Quiroga"
+    },
+    {
+      "id": 3,
+      "titulo": "Go desde cero",
+      "image": "https://drupal.ed.team/sites/default/files/styles/medium/public/courses/images/go_0.jpg?itok=k2amLhrN",
+      "price": 50,
+      "profesor": "Alexys Lozada"
+    },
+    {
+      "id": 4,
+      "titulo": "HTML desde cero",
+      "image": "https://drupal.ed.team/sites/default/files/styles/medium/public/courses/images/HTML-2018.jpg?itok=Gyvm-W9t",
+      "price": 10,
+      "profesor": "Alvaro Felipe"
+    }
+  ]
