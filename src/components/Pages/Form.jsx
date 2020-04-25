@@ -38,9 +38,9 @@ class Form extends Component {
         return (
             <div className="ed-grid">
                 <h1>Formulario {this.props.name}</h1>
-                <h2><a href="https://www.instagram.com/percy_tuncar/" class="btn btn-default">Mi Instagram</a></h2>
-                <h2><a href="https://www.facebook.com/tuncar123" class="btn btn-default">Mi Facebook</a></h2>
-                <h2><a href="http://tuncar.us" class="btn btn-default">Mi Sitio Web</a></h2>
+                <h2><a href="https://www.instagram.com/percy_tuncar/" className="btn btn-default">Mi Instagram</a></h2>
+                <h2><a href="https://www.facebook.com/tuncar123" className="btn btn-default">Mi Facebook</a></h2>
+                <h2><a href="http://tuncar.us" className="btn btn-default">Mi Sitio Web</a></h2>
 
                 <h4>Fecha actual: {Math.ceil(this.state.fecha/1000)}</h4>
                 <form id="form-element">

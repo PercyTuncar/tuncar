@@ -6,11 +6,11 @@ const useCourse = id => {
     const [course, setCourse] = useState({})
 
     useEffect(() => {
-        axios.get(`http://my-json-server.typicode.com/betoquiroga/json-db/cursos/${id}`)
+        axios.get(`https://my-json-server.typicode.com/PercyTuncar/films/films/${id}`)
         .then(resp => setCourse(resp.data))
       }, [])
 
     return course  
 }
 
-export default  useCourse
+export default useCourse

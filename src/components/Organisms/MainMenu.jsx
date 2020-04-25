@@ -10,10 +10,12 @@ const MainMenu = () => (
         <div className="s-grid-1 lg-cols-3 s-cross-center s-main-end header-links">
           <nav className="main-menu" id="main-menu">
             <ul>
-                
-                <li><NavLink to="/peliculas" activeClassName="activo"> Peliculas </NavLink></li>
-                <li><NavLink to="/formulario" activeClassName="activo"> Formulario </NavLink></li>
-                <li><NavLink to="/usuarios" activeClassName="activo"> Usuarios </NavLink></li>
+            <li><NavLink to="/" activeClassName="activo"> Home </NavLink></li>
+            <li><NavLink to="/services" activeClassName="activo"> Services </NavLink></li>
+            <li><NavLink to="/projects" activeClassName="activo"> Projects </NavLink></li>
+                <li><NavLink to="/blog" activeClassName="activo"> Blog </NavLink></li>
+                <li><NavLink to="/formulario" activeClassName="activo"> Podcast </NavLink></li>
+                <li><NavLink to="/cursos" activeClassName="activo"> Cursos </NavLink></li>
             </ul>
           </nav>
           <div className="main-menu-toggle to-l" id="main-menu-toggle"></div>

@@ -1,11 +1,12 @@
+  
 import React, { useState, useEffect } from "react"
 import axios from "axios";
-import useCourse from "../CustomHooks/useCourse";
+import useBlog from "../CustomHooks/useBlog";
 
-const Course = ({ match }) => {
+const Blog = ({ match }) => {
 
     const [comment, setComment] = useState("Sin comentarios")
-    const course = useCourse(match.params.id) 
+    const blog = useBlog(match.params.id) 
 
     const myComment = e => {
       setComment(e.target.value)
@@ -14,12 +15,12 @@ const Course = ({ match }) => {
     return (
         <div className="ed-grid m-grid-3">
         {
-            course ? (
+            blog ? (
                 <div className="ed-grid">
-                    <div className="ed-grid l-block">
-                      <h1 className="m-cols-3"> { course.titulo } </h1>
-                      <img className="m-cols-1" src={ course.image } alt={course.titulo}/>
-                      <p className="m-cols-2">Profesor: {course.profesor} </p>
+                    <div className="ed-grid l-block">aqui la imagen 
+                      <h1 className="m-cols-3"> { blog.titulo } </h1>
+                      <img className="m-cols-1" src={ blog.image } alt={blog.titulo}/>
+                      <p className="m-cols-2">Profesor: {blog.profesor} </p>
                     </div>
                     <div className="ed-grid">
                       <h2>Escribe tu comentario</h2>
@@ -34,4 +35,4 @@ const Course = ({ match }) => {
     )
 }
 
-export default Course
+export default Blog
