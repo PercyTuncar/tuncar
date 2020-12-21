@@ -1,4 +1,5 @@
 import React, {Component} from "react"
+import WeWorking from "../Organisms/WeWorking"
 
 class Form extends Component {
 
@@ -37,6 +38,7 @@ class Form extends Component {
     render() {
         return (
             <div className="ed-grid">
+                <WeWorking/>
                 <h1>Formulario {this.props.name}</h1>
                 <h2><a href="https://www.instagram.com/percy_tuncar/" className="btn btn-default">Mi Instagram</a></h2>
                 <h2><a href="https://www.facebook.com/tuncar123" className="btn btn-default">Mi Facebook</a></h2>

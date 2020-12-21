@@ -2,6 +2,7 @@
 import React, { useState, useEffect } from "react"
 import axios from "axios";
 import useBlog from "../CustomHooks/useBlog";
+import WeWorking from "../Organisms/WeWorking";
 
 const Blog = ({ match }) => {
 
@@ -14,6 +15,7 @@ const Blog = ({ match }) => {
 
     return (
         <div className="ed-grid m-grid-3">
+          <WeWorking/>
         {
             blog ? (
                 <div className="ed-grid">

@@ -1,6 +1,7 @@
 import React from 'react'
 import PropTypes from 'prop-types'
 import { Link } from "react-router-dom"
+import '../../sample/img/meme01.jpg'
 
 const BlogCard = ({id, title, image, price, professor}) => (
     <article className="card">
@@ -30,9 +31,9 @@ BlogCard.propTypes = {
 
 BlogCard.defaultProps = {
     title: "No se encontró título",
-    image: "http://www.ciudaddelapunta.com/sitio/fotos/ciudad/miniaturas/006.jpg",
+    image: "meme01.jpg",
     price: 0.00,
-    profesor: ""
+    profesor: "none"
 }
 
 export default BlogCard

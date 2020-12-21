@@ -13,6 +13,7 @@ import Projects from './Pages/Projects';
 import Courses from './Pages/Courses';
 import Course from "./Pages/Course"
 import '../styles/Style.css'
+import Video from './Pages/Video';
 
 const App = () => (
   <Router>
@@ -28,6 +29,7 @@ const App = () => (
       <Route path="/cursos" component={ Courses } />  
       <Route path="/historial/:valor" component={ History } />  
       <Route path="/historial" component={ History } /> 
+      <Route path="/video" component={ Video } /> 
       <Route path="/formulario" component={ () => <Form name="Página de contacto" /> } />
       <Route component={() => (
         <div className="ed-grid">

@@ -1,6 +1,7 @@
 import React, { Component } from "react"
 import axios from "axios";
 import CourseGrid from "../Organisms/CourseGrid";
+import WeWorking from "../Organisms/WeWorking";
 
 class Courses extends Component {
 
@@ -22,7 +23,14 @@ class Courses extends Component {
   render() {
     const { courses } = this.state
 
-    return <CourseGrid courses={courses} />
+    return (
+     <>
+     <WeWorking/>
+      <CourseGrid courses={courses} />
+      
+    </>
+    )
+  
   }
   
 }

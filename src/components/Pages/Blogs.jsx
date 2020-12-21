@@ -1,6 +1,7 @@
 import React, { Component } from "react"
 import axios from "axios";
 import BlogGrid from "../Organisms/BlogGrid";
+import WeWorking from "../Organisms/WeWorking";
 
 class Blogs extends Component {
 
@@ -21,6 +22,7 @@ class Blogs extends Component {
 
     return( 
     <>
+    <WeWorking/>
     <BlogGrid courses={courses} />
     </> 
     )

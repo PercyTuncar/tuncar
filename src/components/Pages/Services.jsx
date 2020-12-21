@@ -1,6 +1,7 @@
 import React, { Component } from "react"
 import axios from "axios";
 import ServicesGrid from "../Organisms/ServicesGrid";
+import WeWorking from "../Organisms/WeWorking";
 
 class Services extends Component {
 
@@ -21,6 +22,7 @@ class Services extends Component {
   
       return( 
       <>
+      <WeWorking/>
       <ServicesGrid services={services} />
       </> 
       )
